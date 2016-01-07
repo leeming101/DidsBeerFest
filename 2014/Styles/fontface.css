@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gotham.eot');
+    src: url('../fonts/gotham.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham.woff') format('woff'),
+         url('../fonts/gotham.ttf') format('truetype'),
+         url('../fonts/gotham.svg#gotham') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Gotham';
+        src: url('../fonts/gotham.svg#gotham') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'GothamNarrow';
+    src: url('../fonts/gothamnarrow.eot');
+    src: url('../fonts/gothamnarrow.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gothamnarrow.woff') format('woff'),
+         url('../fonts/gothamnarrow.ttf') format('truetype'),
+         url('../fonts/gothamnarrow.svg#gothamnarrow') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'GothamNarrow';
+        src: url('../fonts/gothamnarrow.svg#gothamnarrow') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'Langdon';
+    src: url('../fonts/langdon-webfont.eot');
+    src: url('../fonts/langdon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/langdon-webfont.woff') format('woff'),
+         url('../fonts/langdon-webfont.ttf') format('truetype'),
+         url('../fonts/langdon-webfont.svg#langdon-webfont') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'Langdon';
+        src: url('../fonts/langdon-webfont.svg#langdon-webfont') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'HelveticaMed';
+    src: url('../fonts/HelveticaNeueLTStd-MdCn.eot');
+    src: url('../fonts/HelveticaNeueLTStd-MdCn.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTStd-MdCn.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTStd-MdCn.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'HelveticaMed';
+        src: url('../fonts/HelveticaNeueLTStd-MdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+    }
+}
+
+@font-face {
+    font-family: 'HelveticaBold';
+    src: url('../fonts/HelveticaNeueLTStd-BdCn.eot');
+    src: url('../fonts/HelveticaNeueLTStd-BdCn.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/HelveticaNeueLTStd-BdCn.woff') format('woff'),
+         url('../fonts/HelveticaNeueLTStd-BdCn.ttf') format('truetype'),
+         url('../fonts/HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'HelveticaBold';
+        src: url('../fonts/HelveticaNeueLTStd-BdCn.svg#HelveticaNeueLTStd-MdCn') format('svg');
+    }
+}

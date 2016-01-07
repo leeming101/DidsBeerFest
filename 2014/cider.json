@@ -1,0 +1,22 @@
+  {
+    cols: {
+      userId: {
+        index: 1,
+        type: "number"
+      },
+      name: {
+        index: 2,
+        type: "string"
+      }
+    },
+    rows: [
+      {
+        userId: 1,
+        name: "Batman"
+      },
+      {
+        userId: 2,
+        name: "Superman"
+      }
+    ]
+  }

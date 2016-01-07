@@ -1,0 +1,392 @@
+﻿@font-face {
+    font-family: Gotham;
+    src: url('../Gotham-Bold.ttf') format('truetype');
+}
+
+a img {outline : none;}
+img {border : 0;}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+#imgComingSoon {
+    margin-left: 5%;
+    width: 90%;
+}
+
+#ribbonComingSoon {
+    position: absolute;
+    right: 0;
+    width: 18%;
+}
+
+
+#logo {
+    width: 35%;
+    display: inline-block;
+}
+
+#youtubeText, #youtubeText a {
+    font-family: Gotham, Montserrat;
+    color: rgb(237,28,36);
+    font-size: 16pt;
+    text-decoration: none;
+}
+
+.navLink {
+    color: #00AEEF;
+    float: left;
+    font-family: Gotham,Montserrat;
+    font-size: 16pt;
+    padding-right: 25px;
+    text-decoration: none;
+}
+
+    .navLink a, .navLink a:hover, .navLink a:active {
+        color: #00AEEF;
+        text-decoration: none;
+    }
+
+.navDivide {
+    color: rgb(237,28,36);
+    font-family: Gotham,Montserrat;
+    padding-left: 25px;
+    font-size: 18pt;
+}
+
+#navigation {
+    margin: 6% auto 0;
+    text-align: center;
+    top: 90%;
+    width: 100%;
+}
+
+#links {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+#contact {
+    padding-right: 0;
+}
+
+.red {
+    color: rgb(237,28,36);
+    font-family: Gotham,Montserrat;
+    text-transform: uppercase;
+}
+
+.blue {
+    color: rgb(0,174,239) !important;
+    font-family: Gotham,Montserrat;
+    text-transform: uppercase;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+
+.active {
+    text-decoration: underline !important;
+    color: rgb(0,174,239);
+}
+
+.activeLink {
+    color: rgb(237,28,36) !important;
+}
+
+span {
+    display: inline;
+}
+
+
+#dates {
+    font-family: Gotham,Montserrat;
+    padding-left: 1%;
+    padding-top: 1%;
+    width: 30%;
+    height: 15%;
+    font-size: 24px;
+}
+
+#social {
+    font-family: Gotham,Montserrat;
+    height: 35%;
+    position: absolute;
+    right: 1%;
+    top: 12%;
+}
+
+.btnSocial {
+    height: 75%;
+    margin-top: 25px;
+    width: 100%;
+}
+
+.socialImg {
+    float: left;
+    height: 38px;
+    margin-left: 25px;
+    width: 38px;
+}
+
+
+#homePhoto {
+    height: 69%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 26%;
+}
+
+#homeYoutubeFrame {
+    height: 75%;
+    margin: 0 auto;
+    width: 45%;
+}
+
+.text {
+    font-family: Gotham,Montserrat;
+    color: #454147;
+}
+
+#blurb {
+    font-size: 17px;
+    left: 38%;
+    position: absolute;
+    text-align: left;
+    top: 80%;
+    width: 36%;
+}
+
+#txtCheers {
+    font-size: 40px;
+    left: 27.5%;
+    position: absolute;
+    top: 80%;
+}
+
+.contentLeft {
+    height: 80%;
+    left: 18%;
+    position: absolute;
+    top: 28%;
+    width: 32%;
+}
+
+.contentRight {
+    height: 80%;
+    right: 18%;
+    position: absolute;
+    top: 28%;
+    width: 32%;
+}
+
+#txtAddress, #txtBook {
+    font-size: 20px;
+}
+
+#imgMap {
+    width: 115%;
+}
+
+.largeText {
+    font-size: 24px;
+}
+
+.smallText {
+    font-size: 17px;
+}
+
+.ticketDesc {
+    margin-left: 16%;
+}
+
+#volunteer {
+    float:left;
+    position:absolute;
+    top:1px;
+    right:10%;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) and (max-width: 1700px) {
+    #dates {
+        font-size: 20px;
+    }
+
+    #txtCheers {
+        font-size: 28px;
+    }
+
+    #blurb {
+        font-size: 16px;
+    }
+
+
+    #links {
+        width: 75%;
+    }
+
+
+    .navLink {
+        font-size: 14pt;
+        padding-right: 20px;
+    }
+
+    .navDivide {
+        font-size: 16pt;
+        padding-left: 20px;
+    }
+
+    .socialImg {
+        height: 28px;
+        margin-left: 14px;
+        width: 28px;
+    }
+
+
+    .contentLeft {
+        left: 10%;
+        width: 40%;
+    }
+
+
+    .contentRight {
+        right: 10%;
+        width: 40%;
+    }
+
+    .largeText {
+        font-size: 22px;
+    }
+
+    .smallText {
+        font-size: 17px;
+    }
+}
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1200px) {
+    #dates {
+        font-size: 18px;
+    }
+
+
+    #txtCheers {
+        font-size: 22px;
+        left: 25.5%;
+    }
+
+
+    #blurb {
+        font-size: 14px;
+        left: 37%;
+        width: 42%;
+    }
+
+
+    #links {
+        width: 80%;
+    }
+
+    .navLink {
+        font-size: 12pt;
+        padding-right: 18px;
+    }
+
+    .navDivide {
+        font-size: 14pt;
+        padding-left: 18px;
+    }
+
+
+    .socialImg {
+        height: 25px;
+        margin-left: 12px;
+        width: 25px;
+    }
+
+    #social {
+        font-size: 14px;
+    }
+
+    .contentLeft {
+        left: 8%;
+        width: 44%;
+    }
+
+
+    .contentRight {
+        right: 12%;
+        width: 38%;
+    }
+
+    .largeText {
+        font-size: 22px;
+    }
+
+    .smallText {
+        font-size: 14px;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
+
+@media screen and (orientation:portrait) {
+    #youtubeViewer {
+        position: absolute;
+        top: 45%;
+        left: 27%;
+        width: 40%;
+        height: 22%;
+    }
+
+    #youtubeText {
+        margin-left: 15%;
+    }
+
+    #headerLogo {
+        height: 62%;
+        left: 16%;
+        position: absolute;
+        top: 20%;
+        width: 70%;
+    }
+}
+
+@media screen and (orientation:landscape) {
+    #youtubeViewer {
+        position: absolute;
+        top: 2%;
+        left: 1%;
+        width: 20%;
+        height: 26%;
+    }
+
+    #headerLogo {
+        height: 60%;
+        text-align: center;
+        margin: 0 auto;
+        min-width: 45%;
+        position: absolute;
+        top: 20%;
+        width: 100%;
+    }
+}

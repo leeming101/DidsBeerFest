@@ -1,0 +1,1778 @@
+a img {outline : none;}
+
+img {border : 0;}
+
+
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    height: 200%;
+
+    width: 100%;
+
+    position: absolute;
+
+	-webkit-font-smoothing: antialiased;
+
+	-webkit-text-stroke: 1px transparent;
+
+text-rendering:optimizeLegibility;
+
+}
+
+
+
+html {
+
+    height:100% !important;
+
+}
+
+
+
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+#imgComingSoon {
+
+    margin-left: 5%;
+
+    width: 90%;
+
+}
+
+
+
+#ribbonComingSoon {
+
+    position: absolute;
+
+    right: 0;
+
+    width: 18%;
+
+}
+
+
+
+
+
+#logo {
+
+    width: 35%;
+
+    display: inline-block;
+
+}
+
+
+
+#youtubeText, #youtubeText a {
+
+    font-family: /*Gotham,*/ Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    color: rgb(237,28,36);
+
+    font-size: 16pt;
+
+    text-decoration: none;
+
+}
+
+
+
+.navLink {
+
+    color: #00AEEF;
+
+    float: left;
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    font-size: 16pt;
+
+    padding-right: 25px;
+
+    text-decoration: none;
+
+}
+
+
+
+    .navLink a, .navLink a:hover, .navLink a:active {
+
+        color: #00AEEF;
+
+        text-decoration: none;
+
+    }
+
+
+
+.navDivide {
+
+    color: rgb(237,28,36);
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    padding-left: 25px;
+
+    font-size: 18pt;
+
+}
+
+
+
+#navigation {
+
+    margin: 5% auto 0;
+
+    text-align: center;
+
+    top: 90%;
+
+    width: 100%;
+
+}
+
+
+
+#spanContact {
+
+    vertical-align: middle;
+
+}
+
+
+
+#spanSponsor {
+
+    cursor: pointer;
+
+}
+
+
+
+#links {
+
+    display: inline-block;
+
+}
+
+
+
+#contact {
+
+    padding-right: 0;
+
+}
+
+
+
+.red {
+
+    color: rgb(237,28,36);
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    text-transform: uppercase;
+
+}
+
+
+
+.blue {
+
+    color: rgb(0,174,239) !important;
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    text-transform: uppercase;
+
+}
+
+
+
+.header {
+
+    position: absolute;
+
+    width: 100%;
+
+    height: 6%;
+
+}
+
+
+
+.active {
+
+    text-decoration: underline !important;
+
+    color: rgb(0,174,239);
+
+}
+
+
+
+.activeLink {
+
+    color: rgb(237,28,36) !important;
+
+}
+
+
+
+span {
+
+    display: inline;
+
+}
+
+
+
+
+
+#dates {
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    padding-left: 1%;
+
+    padding-top: 1%;
+
+    width: 30%;
+
+    height: 8%;
+
+    font-size: 24px;
+
+}
+
+
+
+#social {
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    height: 17.5%;
+
+    position: absolute;
+
+    right: 1%;
+
+    top: 12%;
+
+}
+
+
+
+.btnSocial {
+
+    height: 37%;
+
+    margin-top: 25px;
+
+    width: 100%;
+
+}
+
+
+
+.socialImg {
+
+    float: left;
+
+    height: 38px;
+
+    margin-left: 25px;
+
+    width: 38px;
+
+}
+
+
+
+
+
+#homePhoto {
+
+    height: 36%;
+
+    position: absolute;
+
+    text-align: center;
+
+    width: 100%;
+
+    top: 12%;
+
+}
+
+
+
+#homeYoutubeFrame {
+
+    height: 75%;
+
+    margin: 0 auto;
+
+    width: 45%;
+
+}
+
+
+
+.text {
+
+    font-family: /*Gotham,*/Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    color: #454147;
+
+}
+
+
+
+#blurb {
+
+    font-size: 17px;
+
+    left: 38%;
+
+    position: absolute;
+
+    text-align: left;
+
+    top: 40%;
+
+    width: 36%;
+
+}
+
+
+
+#txtCheers {
+
+    font-size: 40px;
+
+    left: 27.5%;
+
+    position: absolute;
+
+    top: 40%;
+
+}
+
+
+
+.contentLeft {
+
+    height: 40%;
+
+    left: 18%;
+
+    position: absolute;
+
+    top: 14%;
+
+    width: 32%;
+
+}
+
+
+
+.contentRight {
+
+    height: 40%;
+
+    right: 18%;
+
+    position: absolute;
+
+    top: 14%;
+
+    width: 32%;
+
+}
+
+
+
+#txtAddress, #txtBook {
+
+    font-size: 20px;
+
+}
+
+
+
+#imgMap {
+
+    width: 115%;
+
+}
+
+
+
+.largeText {
+
+    font-size: 24px;
+
+}
+
+
+
+.smallText {
+
+    font-size: 17px;
+
+}
+
+
+
+.ticketDesc {
+
+    margin-left: 16%;
+
+}
+
+
+
+
+
+#volunteer {
+
+    float: left;
+
+    font-size: 28px;
+
+    position: absolute;
+
+    right: 8%;
+
+    top: 22%;
+
+    width: 12%;
+
+}
+
+
+
+
+
+#divFooter {
+
+    height: 44%;
+
+    padding-left: 5%;
+
+    position: absolute;
+
+    top: 60%;
+
+    width: 90%;
+
+}
+
+
+
+
+
+#sponsorText {
+
+    margin-top: 2%;
+
+}
+
+
+
+#sponsorLogos {
+
+    border-bottom: 1px solid #000000;
+
+    height: 92%;
+
+}
+
+
+
+.sponsorImg {
+
+    background: none repeat scroll 0 0 #F8F8F8;
+
+    float: left;
+
+    height: 14.5%;
+
+    margin-bottom: 1%;
+
+    margin-right: 1%;
+
+    position: relative;
+
+    text-align: center;
+
+    width: 15%;
+
+    overflow: hidden;
+
+}
+
+
+
+.sponsorLogoW {
+
+    bottom: 0;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+    width: 100%;
+
+}
+
+
+
+.sponsorLogoH {
+
+     bottom: 0;
+
+    left: 0;
+
+    margin: auto;
+
+    position: absolute;
+
+    right: 0;
+
+    top: 0;
+
+    Height: 100%;
+
+}
+
+
+
+#footerImg {
+
+    padding-top: 1%;
+
+    width: 100%;
+
+}
+
+
+
+
+
+.centre {
+
+    margin-top: 8%;
+
+    text-align: center;
+
+    height: 92%;
+
+}
+
+
+
+
+
+
+
+/* SWEET PAGES*/
+
+#main{
+
+    /* The main container div */
+
+    height: 38%;
+
+    margin: 9% auto 0 auto;
+
+    position: relative;
+
+    width: 78%;
+
+
+
+    /* CSS3 rounded cornenrs */
+
+
+
+    -moz-border-radius:12px;
+
+    -webkit-border-radius:12px;
+
+    border-radius:12px;
+
+}
+
+
+
+#holder{
+
+    /* The unordered list that is to be split into pages */
+
+
+
+    overflow:hidden;
+
+    position:relative;
+
+    padding-bottom:100px;
+
+
+
+}
+
+
+
+.swControls{
+
+    position:fixed;
+
+    bottom: 5px;
+
+}
+
+
+
+
+
+
+
+a.swShowPage{
+
+
+
+    /* The links that initiate the page slide */
+
+
+
+    background-color:#444444;
+
+    float:left;
+
+    height:15px;
+
+    margin:4px 3px;
+
+    text-indent:-9999px;
+
+    width:15px;
+
+    /*border:1px solid #ccc;*/
+
+
+
+    /* CSS3 rounded corners */
+
+
+
+    -moz-border-radius:7px;
+
+    -webkit-border-radius:7px;
+
+    border-radius:7px;
+
+}
+
+
+
+a.swShowPage:hover,
+
+a.swShowPage.active{
+
+    background-color:#2993dd;
+
+
+
+    /*	CSS3 inner shadow */
+
+
+
+    -moz-box-shadow:0 0 7px #1e435d inset;
+
+    /*-webkit-box-shadow:0 0 7px #1e435d inset;*/
+
+    box-shadow:0 0 7px #1e435d inset;
+
+}
+
+
+
+#holder li{
+
+   float: left;
+
+    list-style: none outside none;
+
+    margin: 10px 10px 0;
+
+    padding: 12px 20px;
+
+    /*width: 80%;*/
+
+
+
+    /* Regular CSS3 box shadows (not inset): */
+
+
+
+    -moz-box-shadow:0 0 6px #111111;
+
+    -webkit-box-shadow:0 0 6px #111111;
+
+    box-shadow:0 0 6px #111111;
+
+}
+
+
+
+#holder,
+
+#holder li{
+
+    /* Applying rouded corners to both the holder and the holder lis */
+
+    -moz-border-radius:8px;
+
+    -webkit-border-radius:8px;
+
+    border-radius:8px;
+
+}
+
+
+
+.clear{
+
+    /* This class clears the floated elements */
+
+    clear:both;
+
+}
+
+
+
+.beerDesc {
+
+    float: left;
+
+    font-family: Montserrat;
+
+    font-size: 14pt;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+}
+
+
+
+.beerImg {
+
+    float: left;
+
+}
+
+
+
+.beerBlurb {
+
+    float: left;
+
+    font-family: Montserrat;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+
+    font-size: 12pt;
+
+    color: #454147;
+
+    padding-top: 5px;
+
+    clear: left;
+
+}
+
+
+
+.lstCider {
+
+width:88%;
+
+}
+
+
+
+#comingSoon {
+
+    font-size: 16px;
+
+    position: absolute;
+
+    text-align: center;
+
+    top: 12%;
+
+    width: 100%;
+
+}
+
+
+
+.contactMain {
+
+    text-align:center;
+
+}
+
+
+
+#imgContact {
+
+    margin-top:10%;
+
+    width: 30%;
+
+}
+
+
+
+#imgFood {
+
+    margin-top: 12%;
+
+    width: 15%;
+
+}
+
+
+
+#foodBlurb {
+
+    bottom: 52%;
+
+    position: absolute;
+
+    right: 0;
+
+    text-align: left;
+
+    width: 20%;
+
+}
+
+
+
+
+
+#foodLeft {
+    left: 0;
+    text-align: center;
+    top: 25%;
+    width: 100%;
+}
+
+
+
+#beerPdf {
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    position: absolute;
+
+    text-align: center;
+
+    top: 10%;
+
+    width: 100%;
+
+}
+
+
+
+#contactLeft {
+
+    left: 10%;
+
+    top: 24%;
+
+    width: 36%;
+
+    text-align: left;
+
+}
+
+
+
+#contactRight {
+
+    right: 10%;
+
+    top: 24%;
+
+    width: 36%;
+
+    text-align: left;
+
+}
+
+
+
+.contactText {
+
+    font-size: 30px;
+
+}
+
+
+
+.contactTextSmall {
+
+    font-size:20px;
+
+}
+
+
+
+.dateText {
+
+    font-size: 18px;
+
+    text-decoration: underline;
+
+}
+
+
+
+.superText {
+
+    font-size: 14px;
+
+    text-transform: lowercase;
+
+}
+
+
+
+.actText {
+
+    font-size: 16px;
+
+    cursor:pointer;
+
+}
+
+
+
+.sessText {
+
+    font-size: 14px;
+
+}
+
+
+
+#entertainmentLeft {
+
+    top: 10%;
+
+    left: 5%;
+
+}
+
+
+
+#entertainmentRight {
+
+    height: 36%;
+
+    right: 10%;
+
+    top: 10%;
+
+    width: 48%;
+
+}
+
+
+
+#entInstructions  {
+
+    left: 8%;
+
+    position: absolute;
+
+    top: 15%;
+
+    width: 100%;
+
+}
+
+
+
+#sponsorInfo  {
+
+    left: 8%;
+
+    position: absolute;
+
+    top: 62%;
+
+    width: 100%;
+
+}
+
+
+
+#entSponsor {
+
+width:100px;
+
+}
+
+
+
+.bandLogo {
+
+    float: left;
+
+    margin-right:15px;
+
+    display:none;
+
+}
+
+
+
+.bandTitle {
+
+    font-size:28px;
+
+    text-align:center;
+
+    text-decoration:underline;
+
+}
+
+
+
+.bandInfo {
+
+    font-size: 14px;
+
+    text-align: left;
+
+}
+
+
+
+.bandSite {
+
+text-decoration:underline;
+
+float:right;
+
+}
+
+
+
+#chow, #craftyD, #unclestrawb, #spartacus, #swingin, #rich, #miken, #vagab, #edwin, #shane, #kyle, #steve {
+
+display:none;
+
+}
+
+
+
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+
+    #dates {
+
+        font-size: 20px;
+
+    }
+
+
+
+    #txtCheers {
+
+        font-size: 28px;
+
+    }
+
+
+
+    #blurb {
+
+        font-size: 16px;
+
+    }
+
+
+
+
+
+    /*#links {
+
+        width: 75%;
+
+    }*/
+
+
+
+
+
+    .navLink {
+
+        font-size: 14pt;
+
+        padding-right: 20px;
+
+    }
+
+
+
+    .navDivide {
+
+        font-size: 16pt;
+
+        padding-left: 20px;
+
+    }
+
+
+
+    .socialImg {
+
+        height: 28px;
+
+        margin-left: 14px;
+
+        width: 28px;
+
+    }
+
+
+
+
+
+    .contentLeft {
+
+        left: 10%;
+
+        width: 40%;
+
+    }
+
+
+
+
+
+    .contentRight {
+
+        right: 10%;
+
+        width: 40%;
+
+    }
+
+
+
+    .largeText {
+
+        font-size: 22px;
+
+    }
+
+
+
+    .smallText {
+
+        font-size: 17px;
+
+    }
+
+
+
+    #volunteer {
+
+    font-size: 20px;
+
+}
+
+
+
+    .contactText {
+
+    font-size: 20px;
+
+}
+
+    
+
+
+
+#contactLeft {
+
+    top: 24%;
+
+    width: 38%;
+
+}
+
+
+
+#contactRight {
+
+    top: 24%;
+
+}
+
+}
+
+
+
+
+
+/* Portrait tablet to landscape and desktop */
+
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    #dates {
+
+        font-size: 18px;
+
+    }
+
+
+
+
+
+    #txtCheers {
+
+        font-size: 22px;
+
+        left: 25.5%;
+
+    }
+
+
+
+
+
+    #blurb {
+
+        font-size: 14px;
+
+        left: 37%;
+
+        width: 42%;
+
+    }
+
+
+
+
+
+    #links {
+
+        width: 960px;
+
+    }
+
+
+
+    .navLink {
+
+        font-size: 12pt;
+
+        padding-right: 15px;
+
+    }
+
+
+
+    .navDivide {
+
+        font-size: 14pt;
+
+        padding-left: 15px;
+
+    }
+
+
+
+
+
+    .socialImg {
+
+        height: 25px;
+
+        margin-left: 12px;
+
+        width: 25px;
+
+    }
+
+
+
+    #social {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .contentLeft {
+
+        left: 8%;
+
+        width: 44%;
+
+        top: 12%;
+
+    }
+
+
+
+
+
+    
+
+.contentRight {
+
+    right: 10%;
+
+    width: 38%;
+
+    top: 12%;
+
+}
+
+
+
+    .largeText {
+
+        font-size: 22px;
+
+    }
+
+
+
+    .smallText {
+
+        font-size: 14px;
+
+    }
+
+
+
+    #volunteer {
+
+    font-size: 20px;
+
+    }
+
+
+
+    #main {    
+
+    margin: 10% auto 0;   
+
+    }
+
+
+
+    #holder li {
+
+    margin: 8px 10px 0;
+
+    padding: 5px 12px;
+
+    }
+
+
+
+    .beerDesc {
+
+    font-size: 12pt;
+
+    padding-top: 10px;
+
+    }
+
+
+
+    
+
+    .beerBlurb {
+
+        font-size: 10pt;
+
+        padding-top: 5px;
+
+    }
+
+
+
+    .contactText {
+
+    font-size: 20px;
+
+}
+
+
+
+    #contactLeft {
+
+    top: 24%;
+
+    width: 38%;
+
+}
+
+
+
+#contactRight {
+
+    top: 24%;
+
+}
+
+
+
+#entertainmentLeft {
+
+    left: 4%;
+
+    top: 10%;
+
+}
+
+
+
+.dateText {
+
+    font-size: 20px;
+
+    text-decoration: underline;
+
+}
+
+
+
+.actText {
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+    .bandTitle {
+
+        font-size: 20px;
+
+    }
+
+}
+
+
+
+/* Landscape phone to portrait tablet */
+
+@media (max-width: 767px) {
+
+#homeYoutubeFrame{
+
+		height:30%;
+
+	}
+
+.actText {
+
+    font-size: 14px;
+
+}
+
+.dateText {
+
+    font-size: 14px;
+
+}
+
+.sessText {
+
+    font-size: 14px;
+
+}
+
+}
+
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+
+#homeYoutubeFrame{
+
+		height:30%;
+
+	}
+
+.actText {
+
+    font-size: 14px;
+
+}
+
+.dateText {
+
+    font-size: 14px;
+
+}
+
+.sessText {
+
+    font-size: 14px;
+
+}
+
+}
+
+
+
+@media screen and (orientation:portrait) {
+
+    #youtubeViewer {
+
+        position: absolute;
+
+        top: 45%;
+
+        left: 27%;
+
+        width: 40%;
+
+        height: 11%;
+
+    }
+
+	
+
+	#homeYoutubeFrame{
+
+		height:30%;
+
+	}
+
+
+
+    #youtubeText {
+
+        margin-left: 15%;
+
+    }
+
+
+
+    #headerLogo {
+
+        height: 31%;
+
+        left: 16%;
+
+        position: absolute;
+
+        top: 20%;
+
+        width: 70%;
+
+    }
+
+}
+
+
+
+@media screen and (orientation:landscape) {
+
+    #youtubeViewer {
+
+        position: absolute;
+
+        top: 2%;
+
+        left: 1%;
+
+        width: 20%;
+
+        height: 26%;
+
+    }
+
+
+
+    #headerLogo {
+
+        height: 36%;
+
+        text-align: center;
+
+        margin: 0 auto;
+
+        min-width: 45%;
+
+        position: absolute;
+
+        top: 20%;
+
+        width: 100%;
+
+    }
+
+}
+
+
+
+@media only screen 
+
+and (min-device-width : 320px) 
+
+and (max-device-width : 568px) 
+
+and (orientation : landscape) {#homeYoutubeFrame{
+
+		height:30%;
+
+	}
+
+.actText {
+
+    font-size: 14px;
+
+}
+
+.dateText {
+
+    font-size: 14px;
+
+}
+
+.sessText {
+
+    font-size: 14px;
+
+}
+
+#entertainmentLeft {
+
+    top: 8%;
+
+}
+
+#divFooter {
+
+    top: 80%;
+
+}
+
+}
+
+
+
+@media only screen 
+
+and (min-device-width : 320px) 
+
+and (max-device-width : 480px) 
+
+and (orientation : landscape) {
+
+#homeYoutubeFrame{
+
+		height:30%;
+
+	}
+
+.actText {
+
+    font-size: 14px;
+
+}
+
+.dateText {
+
+    font-size: 14px;
+
+}
+
+.sessText {
+
+    font-size: 14px;
+
+}
+
+#entertainmentLeft {
+
+    top: 8%;
+
+}
+
+
+
+
+
+#divFooter {
+
+    top: 80%;
+
+}
+
+}
